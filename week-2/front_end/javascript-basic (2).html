@@ -1,0 +1,83 @@
+<html>
+<head>
+  <title>Javascript Bare</title>
+</head>
+<body>
+
+<script type="text/javascript">
+  // alert('Hello World!');
+
+// var counter = 0;
+// var generateNumber = function () {
+// 	counter = counter + 1;
+// 	return counter;
+// };
+
+// var x = generateNumber();
+// var gen = generateNumber;
+// var y = gen();
+
+
+
+// var multiplyString = function (string, times) {
+// 	if (times === 0) {
+// 		return  "";
+// 	} else {
+// 		return string + multiplyString(string, times - 1);
+// 	}
+// };
+// var result = multiplyString("Mike", 19);
+// alert(result);
+
+
+
+// var addFive = function (x) {
+// 	return x + 5;
+// };
+
+// console.log("addFive(3) should be 8:", addFive(3));
+// console.log("addFive(6) should be 11:", addFive(6));
+
+// create a variable that prompts three times seperately for user input.
+// var input1 = prompt("Give me a word.")
+// var input2 = prompt("Give me another word.")
+// var input3 = prompt("Give me a final word.")
+
+// alert(input3 + " " + input2 + " " + input1)
+
+
+
+// var counter = 0
+// var passCheck = function () {
+// if (counter < 3) {
+// 	var user_pass = prompt("Enter your password!");
+// 		if (user_pass === "125344") {
+// 			alert("Access granted!");
+// 		} else {
+// 			alert("Acces denied!");
+// 			counter = counter + 1;
+// 			return passCheck();
+// 		} 
+// 	} else {
+// 		alert("You entered the wrong password 3 times. Account locked.")
+// }
+// };
+// passCheck();
+
+
+
+
+var yell = function(phrase) {
+	return phrase.toUpperCase() + "!";
+};
+var shout = yell;
+var question = yell("hello?");
+var command = shout("sit down");
+
+
+
+
+</script>
+
+</body>
+</html>
